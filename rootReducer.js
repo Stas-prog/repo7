@@ -12,7 +12,7 @@ function counterReducer(state = 0, action) {
 
 const initialThemeState = {
     value: 'light',
-    disabled: false
+    disabled: false,
 }
 
 function themeReducer(state = initialThemeState, action) {
