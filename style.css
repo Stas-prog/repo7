@@ -1,0 +1,33 @@
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.theme {
+    font-weight: bold;
+}
+
+body {
+    transition: .2s all ease-in;
+}
+
+body.dark {
+    background: #343a40;
+    color: #fff;
+}
+
+body.dark .card {
+    background: #343a40;
+    border: 2px solid rgba(0, 0, 0, .875);
+    color: aqua;
+}
+
+.hr {
+    border-top: 2px solid rgba(0, 0, 0, .900);
+}
